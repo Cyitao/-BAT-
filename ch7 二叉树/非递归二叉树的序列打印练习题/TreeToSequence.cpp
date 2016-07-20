@@ -102,9 +102,8 @@ public:
 				s.push((*c).right);
 			else
 			{
-				p=s.top();
-				arr.push_back((*p).val);
-				h=p;
+				arr.push_back((*c).val);
+				h=c;
 				s.pop();
 			}
 		}
